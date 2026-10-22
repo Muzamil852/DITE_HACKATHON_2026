@@ -35,9 +35,9 @@ This repository serves as the official preparation and development workspace for
   * Python 3.14.4 & pip 26.0.1 available.
   * Node.js v25.1.0 & npm 11.6.2 available (`npm.cmd`).
 * [x] **Mandatory README:** Prepared with architectural blueprints, testing criteria, and submission protocols.
-* [ ] **Local Git Repository:** Pending initialization (`git init -b main`).
-* [ ] **Git Ignore Configuration:** Pending `.gitignore` creation to prevent credential leaks.
-* [ ] **GitHub Remote Connection:** Pending repository creation on GitHub (`dite-hackathon-2026`) and remote linking.
+* [x] **Local Git Repository:** Initialized on `main` branch.
+* [x] **Git Ignore Configuration:** `.gitignore` active (protecting `.env`, secrets, virtualenvs, and node_modules).
+* [x] **GitHub Remote Connection:** Connected and synced to [DITE_HACKATHON_2026](https://github.com/Muzamil852/DITE_HACKATHON_2026).
 * [ ] **Problem Announcement:** Scheduled for 23 October 2026.
 
 ---
@@ -83,7 +83,7 @@ git add README.md .gitignore
 git commit -m "docs: initialize hackathon workspace with preparation guide"
 
 # 3. Connect to GitHub remote
-git remote add origin https://github.com/Muzamil852/dite-hackathon-2026.git
+git remote add origin https://github.com/Muzamil852/DITE_HACKATHON_2026.git
 
 # 4. Push to public GitHub
 git push -u origin main
@@ -130,7 +130,7 @@ Before initiating deployment:
 > [!CAUTION]
 > The GitHub repository is public. Never commit credentials, private tokens, or connection strings.
 
-- [ ] `.gitignore` is populated and active before any git commit.
+- [x] `.gitignore` is populated and active before any git commit.
 - [ ] All API keys stored in local `.env` file (never pushed).
 - [ ] `.env.example` provided with placeholder values for evaluators.
 - [ ] Cloud platforms configured with secrets via their web dashboards (e.g. Streamlit Secrets, Netlify Environment Variables).
@@ -150,7 +150,7 @@ Once deployed:
 
 ## 11. Final Submission Checklist
 
-* [ ] **Public GitHub Repository:** [https://github.com/Muzamil852/dite-hackathon-2026](https://github.com/Muzamil852/dite-hackathon-2026) *(pending creation)*
+* [x] **Public GitHub Repository:** [https://github.com/Muzamil852/DITE_HACKATHON_2026](https://github.com/Muzamil852/DITE_HACKATHON_2026) *(Verified Active & Synced)*
 * [ ] **Live Public Application URL / APK:** `[Pending Deployment on Event Day]`
 * [ ] **Demo Video URL (3–5 min, Google Drive):** `[Pending Recording & Upload]`
   * Sharing settings: **"Anyone with the link can view"** (tested in incognito)
@@ -173,8 +173,8 @@ Once deployed:
 ### 12.4 Local Setup & Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Muzamil852/dite-hackathon-2026.git
-cd dite-hackathon-2026
+git clone https://github.com/Muzamil852/DITE_HACKATHON_2026.git
+cd DITE_HACKATHON_2026
 
 # Follow instructions based on chosen stack:
 # Python: pip install -r requirements.txt && streamlit run app.py
